@@ -1,0 +1,101 @@
+.home-navbar-default {
+    background-image: none;
+    border: none;
+    border-radius: 0;
+  }
+  
+  .home-navbar-header {
+      right:420px;
+  }
+  .home-navbar-signin h3 {
+    color: #FFF;
+    font-size: 17px;
+    font-weight: 790;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+  .home-navbar-signin {
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #000000;
+    cursor: pointer;
+    transition: .4s;
+  }
+  
+  .homepage-title {
+    margin-top: 1%;
+    margin-left: 10%;
+  }
+  .homepage-buttons div {
+    margin: auto;
+  }
+  
+  .homepage-title h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 42px;
+    margin-top: 0;
+  }
+  
+  .home-navbar-header h2 {
+    font-weight: 800;
+  }
+    .navbar-default .navbar-nav>li>a {
+        color: white;
+      }
+      
+      .navbar-default .navbar-brand {
+        color: white;
+      }
+      
+      .navbar-default .navbar-toggle {
+        border-color: white;
+      }
+      
+      .navbar-default .navbar-toggle .icon-bar {
+        background-color: white;
+      }
+      
+      .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: transparent;
+      }
+      
+      .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+        color: white;
+        background-color: transparent;
+      }
+      
+      .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+        color: white;
+        background-color: transparent;
+      }
+      
+      .fgggg {
+        color: rgb(107, 132, 202);
+      }
+      
+      .wrapper{
+        background: whitesmoke;
+      }
+Collapse{
+    display: flex;
+    flex-direction: row;
+}
+NavItem{
+    list-style-type: none;
+    list-style-position: outside;
+    display: list-item;
+}
+Navbar{
+    position: fixed;
+    top:0;
+}
+.ml-auto{
+    list-style-type: none;
+    display: inline-flex;
+    flex-direction: row;
+    margin-left: auto;
+}
+  

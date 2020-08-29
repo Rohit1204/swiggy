@@ -12,21 +12,116 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.form__form-group-icon{
+  background: transparent;
+}
 
-.App-header {
-  background-color: #282c34;
+.form__form-group-icon, input:not(:last-child) {
+  border-right: none;
+}
+.account__btn {
+  width:100%;
+}
+.btn-primary{
+  background-color: #FC8019;
+  font-size: 16px;
+}
+.account {
+  height: 100vh;
+  width: 100%;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  overflow-y: auto;
+  }
+  .form-control::placeholder {
+    color: rgb(107, 93, 93);
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+#email::placeholder {
+  color: rgb(107, 93, 93);
+  font-weight: normal;
+  font-size: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+#password::placeholder {
+  color: rgb(107, 93, 93);
+  font-weight: normal;
+  font-size: 1rem;
 }
+.btn{
+ height:44.4px;
+ width:469.063px;
+ position: relative;
+ display: inline-block;
+ padding:10px 25px 10px 25px;
+ color:#faf9f8;
+ min-width: auto;
+}
+.input-group{
+  margin: 0px 0px 24px 0px;
+  padding: 0px 15px 0px 15px;
+  height: 47px;
+  width:421px;
+  min-height: auto;
+  min-width: auto;
+  display: flex;
+  max-width: 100%;
+  top:0px;
+  bottom:0px;
+  right:0px;
+  text-align: center;
+}
+form{
+  align-items: center;
+  display: flex;
+  padding: 96px 0px 48px 0px;
+  line-height: 20.8px;
+  flex-direction: row;
+}
+.input-group-text{
+  display: flex;
+  height: 33px;
+  line-height: 24px;
+  min-width: auto;
+  padding: 6px 16px 6px 16px;
+  text-decoration: none solid rgb(73,80,87);
+  border-left: 1px solid #CED4DA;
+  border-top: 1px solid #CED4DA;
+  border-bottom: 1px solid #CED4DA;
+}
+.col-lg-12 mb-4{
+  min-height: auto;
+  text-align: center;
+
+}
+.img-fluid{
+  height: 375px;
+  max-width: 100%;
+  vertical-align: middle;
+  display: block;
+}
+.col-md-5{
+  padding: 0px 48px 0px 15px;
+  min-height: auto;
+  max-width: auto;
+}
+.row{
+  display: flex;
+  vertical-align: auto;
+  align-items: center;
+  margin: 0 -15px 0 -15px;
+  padding: 24px 0px 24px 0px;
+  line-height: 20.8px;
+  flex-direction: column;
+}
+.form-control{
+  position: relative;
+  display:block;
+  padding: 22px 8px 22px 8px;
+  border: 1px solid #CED4DA;
+}
+
 
 @keyframes App-logo-spin {
   from {
