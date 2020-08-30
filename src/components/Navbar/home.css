@@ -20,7 +20,7 @@
     border-radius: 4px;
     background-color: #000000;
     cursor: pointer;
-    transition: .4s;
+    transition: .2s;
   }
   
   .homepage-title {
@@ -97,5 +97,6 @@ Navbar{
     display: inline-flex;
     flex-direction: row;
     margin-left: auto;
+    top:0;
 }
   

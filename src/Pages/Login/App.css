@@ -41,13 +41,13 @@
 #email::placeholder {
   color: rgb(107, 93, 93);
   font-weight: normal;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 #password::placeholder {
   color: rgb(107, 93, 93);
   font-weight: normal;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 .btn{
  height:44.4px;
@@ -123,11 +123,3 @@ form{
 }
 
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
